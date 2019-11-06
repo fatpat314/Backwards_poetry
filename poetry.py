@@ -3,13 +3,20 @@ import random
 def space():
     print("------------------------------")
 
-poem = '''If you are a dreamer, come in,
-If you are a dreamer, a wisher, a liar,
-A hope-er, a pray-er, a magic bean buyer…
-If you’re a pretender, come sit by my fire
-For we have some flax-golden tales to spin.
-Come in!
-Come in!'''
+poem = """I like people.
+I’d like some paper people.
+They’d be purple paper people. Maybe pop-up purple paper people.
+Proper pop-up purple paper people.
+“How do you prop up pop-up purple paper people?”
+I hear you cry. Well I …
+I’d probably prop up proper pop-up purple paper people
+With a proper pop-up purple people paperclip,
+But I’d pre-prepare appropriate adhesives as alternatives,
+A cheeky pack of Blu Tack just in case the paper slipped.
+Because I could build a pop-up metropolis.
+But I wouldn’t wanna deal with all the paper people politics.
+Paper politicians with their paper-thin policies,
+Broken promises without appropriate apologies."""
 
 #lines = poem.split("\n")
 
@@ -60,10 +67,22 @@ space()
 lines_printed_random(poem)
 
 space()
+print("REARRANGED")
+space()
 
 
 def my_own_rearrange():
-    print("test")
+    lines = poem.split("\n")
+    # get each line of the poem into a list
+
+
+    # call the indexes of this list as I wish.
+    rearrange = lines[0], lines[13], lines[2], lines[11], lines[4], lines[9], lines[8], lines[7], lines[6], lines[5], lines[10], lines[3], lines[12], lines[1]
+
+    # rearrange = str(rearrange)
+    # rearrange = rearrange.split(",s")
+
+    print(rearrange)
 
 my_own_rearrange()
 
